@@ -36,7 +36,7 @@ class Song
   def self.artist_count
     count = {}
     @@artists.uniq {|artist| count[artist] = 0}
-    count.each {|artist, num| count[artist] = @@genres.count(artist)}
+    count.each {|artist, num| count[artist] = @@artists.count(artist)}
   end
 end
 
