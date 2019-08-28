@@ -34,6 +34,7 @@ class Song
       unless count.keys.include?(genre)
         count[genre] = 0
       end
+    end
       #binding.pry
     count.each do |genre, num|
       num = @@genres.count(genre)
