@@ -29,6 +29,11 @@ class Song
   
   def self.genre_count
     count = {}
-    count.keys = s
+    @@self.genres do |genre|
+      unless count.keys.include?(genre)
+        count[genre] = 0
+      end
+      binding.pry
+    end
   end
 end
