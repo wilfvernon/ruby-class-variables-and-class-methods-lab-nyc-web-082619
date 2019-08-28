@@ -28,6 +28,7 @@ class Song
   end
   
   def self.genre_count
-    self.genres.length
+    count = {}
+    count.keys = s
   end
 end
