@@ -15,19 +15,19 @@ class Song
     @@genres.push(genre)
   end
   
-  def count
+  def self.count
     @@count
   end
   
-  def artists
+  def self.artists
     @@artists
   end
   
-  def genres
+  def self.genres
     @@genres
   end
   
-  def genre_count
+  def self.genre_count
     @@genre_count.length
   end
 end
