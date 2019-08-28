@@ -12,6 +12,6 @@ class Song
   @genre = genre
   @@count += 1
   @@artists.push(artist)
-  @@genres.push(genres)
+  @@genres.push(genre)
   end
 end
