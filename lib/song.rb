@@ -30,9 +30,7 @@ class Song
   def self.genre_count
     count = {}
     @@genres.uniq do |genre|
-      unless count.keys.include?(genre)
         count[genre] = 0
-      end
     end
     
     count.each do |genre, num|
